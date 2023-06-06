@@ -8,6 +8,7 @@ from .bounded_group_loss import AbsoluteLoss, SquareLoss, ZeroOneLoss  # noqa: F
 from .error_rate import ErrorRate  # noqa: F401
 from .moment import Moment  # noqa: F401
 from .moment import ClassificationMoment, LossMoment  # noq: F401
+from .moment import BiasReduction  # noqa: F401
 from .utility_parity import EqualizedOdds  # noqa: F401
 from .utility_parity import UtilityParity  # noqa: F401
 from .utility_parity import (
@@ -32,4 +33,5 @@ __all__ = [
     "LossMoment",
     "SquareLoss",
     "ZeroOneLoss",
+    "BiasReduction",
 ]
